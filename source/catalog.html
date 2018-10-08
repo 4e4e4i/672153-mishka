@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <title>Каталог</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="page-wrapper">
+        <a href="#" class="header__logo">
+          <img src="http://placehold.it/150x100" alt="Логотип магазина Mishka">
+          Логотип Мишка
+        </a>
+        <nav class="header__navigation menu">
+
+          <button class="menu__burger-btn">
+            <span></span>
+          </button>
+
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a class="menu__link" href="catalog.html">Каталог товаров</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="form.html">Вязание на заказ</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Поиск по сайту</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Корзина: пока пуста</a>
+            </li>
+          </ul>
+
+        </nav>
+      </div>
+    </header>
+
+    <main class="main">
+      <h1 class="main__title title">Каталог товаров</h1>
+      <section class="main__products products">
+        <div class="page-wrapper">
+          <article class="products__item product">
+            <h2 class="visually-hidden">Карточка товара</h2>
+            <div class="product__image">
+              <img src="http://placehold.it/150x100" alt="Фото товара">
+            </div>
+            <div class="product__description">
+              <div class="product__row">
+                <h3 class="products__title">Зайчик-попрыгайчик</h3>
+                <p class="product__characteristic">Рост 30 см, вес 200 г</p>
+              </div>
+              <div class="product__row">
+                <p class="product__price">1 200 руб.</p>
+                <button class="product__btn">Положить в корзину</button>
+              </div>
+            </div>
+          </article>
+          <article class="products__item">
+            <h2 class="visually-hidden">Карточка товара</h2>
+            <div class="product__image">
+              <img src="http://placehold.it/150x100" alt="Фото товара">
+            </div>
+            <div class="product__description">
+              <div class="product__row">
+                <h3 class="products__title">Корзинка для белья</h3>
+                <p class="product__characteristic">Диаметр 15 см, высота 10 см</p>
+              </div>
+              <div class="product__row">
+                <p class="product__price">690 руб.</p>
+                <button class="product__btn">Положить в корзину</button>
+              </div>
+            </div>
+          </article>
+          <article class="products__item">
+            <h2 class="visually-hidden">Карточка товара</h2>
+            <div class="product__image">
+              <img src="http://placehold.it/150x100" alt="Фото товара">
+            </div>
+            <div class="product__description">
+              <div class="product__row">
+                <h3 class="products__title">Большая корзинка
+                  для игрушек</h3>
+                <p class="product__characteristic">Диаметр 30 см, высота 30 см</p>
+              </div>
+              <div class="product__row">
+                <p class="product__price">1 500 руб.</p>
+                <button class="product__btn">Положить в корзину</button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <div class="page__wrapper">
+        <section class="main__about-production about-production">
+            <h2 class="about-production__title">Процесс производства</h2>
+            <div class="about-production__video video-block">
+              <div class="video-block__player">
+                <img src="http://placehold.it/150x100" alt="Картинка из видео">
+              </div>
+              <button class="video-block__button" type="button">Запустить видео</button>
+            </div>
+            <p class="about-production__text">По просьбам наших любимых фолловеров мы сняли для вас подробное видео о том, как появляются наши товары.</p>
+            <button class="about-production__button button button--min-size" type="button">Сделать заказ</button>
+        </section>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="page-wrapper">
+        <section class="footer__block society">
+          <a href="#" class="society__links society__links--instagram">instagram</a>
+          <a href="#" class="society__links society__links--facebook">facebook</a>
+          <a href="#" class="society__links society__links--twiter">twiter</a>
+        </section>
+        <div class="footer__block">
+          <a href="#" class="footer__link-logo-html">Разработано</a>
+        </div>
+      </div>
+    </footer>
+
+    <section class="popup">
+      <div class="popup__layout">
+        <div class="popup__block">
+          <h2 class="popup__title">Добавить в корзину</h2>
+          <p class="popup__text">Выберите размер:</p>
+          <label>
+            <input type="radio" class="visually-hidden">
+            <div class="popup__radio-button.radio-btn">S</div>
+          </label>
+          <label>
+            <input type="radio" class="visually-hidden">
+            <div class="popup__radio-button.radio-btn">M</div>
+          </label>
+          <label>
+            <input type="radio" class="visually-hidden">
+            <div class="popup__radio-button.radio-btn">L</div>
+          </label>
+          <button class="popup__button" type="button">Добавить</button>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
