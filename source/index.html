@@ -5,13 +5,12 @@
     <title>Мишка</title>
   </head>
   <body>
-    <header class="header">
-      <div class="page-wrapper">
+    <header class="page-header">
+      <div class="page-header__inner">
         <a href="#" class="header__logo">
           <img src="http://placehold.it/150x100" alt="Логотип магазина Mishka">
-          Логотип Мишка
         </a>
-        <nav class="header__navigation menu">
+        <nav class="header__nav  menu">
 
           <button class="menu__burger-btn">
             <span></span>
@@ -38,15 +37,15 @@
 
     <main class="main">
 
-      <section class="main__presentation presentation">
-        <h1 class="presentation__title title">Милые штуки ручной  работы для дома</h1>
+      <section class="main__presentation  presentation">
+        <h1 class="presentation__title">Милые штуки ручной  работы для дома</h1>
         <a href="#" class="presentation__link">Предметы  интерьера</a>
         <a href="#" class="presentation__link">Детские  игрушки</a>
       </section>
 
-      <article class="main__product product">
-        <div class="page-wrapper">
-          <h2 class="product__title title title--small">Вязаные корзинки</h2>
+      <article class="main__product  product">
+        <div class="product__inner">
+          <h2 class="product__title">Вязаные корзинки</h2>
           <b class="product__special-offer">Товар недели</b>
           <p class="product__description">Экологически чистая пряжа, ручная работа. Доступны в шести расцветках, и трех размерах.</p>
           <dl class="product__table">
@@ -61,13 +60,13 @@
             <img src="http://placehold.it/260x315" alt="Фото товара">
           </div>
           <p class="product__price">Цена: 990 руб.</p>
-          <a href="#" class="product__link button">Заказать</a>
+          <a href="#" class="product__link  button">Заказать</a>
         </div>
       </article>
 
-      <section class="main__about-us about-us">
-        <div class="page-wrapper">
-          <h2 class="about-us__title title title--small">Коротко о нас:</h2>
+      <section class="main__about-us  about-us">
+        <div class="about-us__inner">
+          <h2 class="about-us__title">Коротко о нас:</h2>
           <ul class="about-us__list">
             <li class="about-us__item">
               <p class="about-us__text">Экологически  чистые материалы</p>
@@ -91,9 +90,9 @@
         </div>
       </section>
 
-      <section class="main__comments comments">
-        <div class="page__wrapper">
-          <h2 class="comments__title title title--small">Отзывы</h2>
+      <section class="main__comments  comments">
+        <div class="сomments__inner">
+          <h2 class="comments__title">Отзывы</h2>
           <p class="comments__text">
             Я молодая мама, но все равно фотографии не набирали и близко такого количества лайков,
             как у популярных инстамамочек. В отчаянии, я накупила аксессуаров и игрушек в Мишке и
@@ -106,21 +105,21 @@
           <div class="comments__buttons">
             <button class="comments__button" type="button">Стрелка вперед</button>
             <button class="comments__button" type="button">Стрелка назад</button>
-            <a href="#" class="comments__link button">Написать</a>
+            <a href="#" class="comments__link  button">Написать</a>
           </div>
         </div>
       </section>
 
-      <section class="main__contacts contacts">
-        <div class="page-wrapper">
-          <h2 class="contacts__title title title--smaller">Контакты</h2>
+      <section class="main__contacts  contacts">
+        <div class="contacts__inner">
+          <h2 class="contacts__title">Контакты</h2>
           <div class="contacts__table">
             <div class="contacts__row">
               <div class="contacts__term">e-mail</div>
-              <a class="contacts__info" href="#">info@mimimishkashop.ru</a>
+              <a class="contacts__info" href="mailto:info@mimimishkashop.ru">info@mimimishkashop.ru</a>
             </div>
             <div class="contacts__row">
-              <div class="contacts__term">e-mail</div>
+              <div class="contacts__term">адрес:</div>
               <div class="contacts__info">г. Санкт-Петербург, ул. Большая Конюшенная, д. 19/8, офис 101</div>
             </div>
           </div>
@@ -129,47 +128,52 @@
         <div class="contacts__map">
           <img src="http://placehold.it/400x800" alt="Карта проезда к магазину">
         </div>
-        <div class="page-wrapper">
-          <a href="#" class="contacts__link button">Напишите нам</a>
+        <div class="contacts__inner">
+          <a href="#" class="contacts__link  button">Напишите нам</a>
         </div>
       </section>
 
     </main>
 
-    <footer class="footer">
-
-      <div class="page-wrapper">
-        <section class="footer__block society">
-          <a href="#" class="society__links society__links--instagram">instagram</a>
-          <a href="#" class="society__links society__links--facebook">facebook</a>
-          <a href="#" class="society__links society__links--twiter">twiter</a>
-        </section>
+    <footer class="page-footer">
+      <div class="page-footer__inner">
+        <div class="footer__block society">
+          <a href="#" class="society__link  society__link--instagram">instagram</a>
+          <a href="#" class="society__link  society__link--facebook">facebook</a>
+          <a href="#" class="society__link  society__link--twiter">twiter</a>
+        </div>
         <div class="footer__block">
-          <a href="#" class="footer__link-logo-html">Разработано</a>
+          <a href="#" class="footer__link-logo-html">
+            Разработано
+            <img src="" alt="Логотип HTML Academy">
+          </a>
         </div>
       </div>
-
     </footer>
 
-    <section class="popup">
-      <div class="popup__layout">
-        <div class="popup__block">
-          <h2 class="popup__title">Добавить в корзину</h2>
-          <p class="popup__text">Выберите размер:</p>
-          <label>
-            <input type="radio" class="visually-hidden">
-            <div class="popup__radio-button.radio-btn">S</div>
-          </label>
-          <label>
-            <input type="radio" class="visually-hidden">
-            <div class="popup__radio-button.radio-btn">M</div>
-          </label>
-          <label>
-            <input type="radio" class="visually-hidden">
-            <div class="popup__radio-button.radio-btn">L</div>
-          </label>
-          <button class="popup__button" type="button">Добавить</button>
-        </div>
+    <section class="modal">
+      <div class="modal__layout">
+        <form class="modal__form">
+          <h2 class="modal__title">Добавить в корзину</h2>
+          <p class="modal__text">Выберите размер:</p>
+
+          <div class="modal__radio-buttons">
+            <label class="modal__label">
+              <input type="radio" class="visually-hidden">
+              <div class="modal__radio-button  radio-btn">S</div>
+            </label>
+            <label class="modal__label">
+              <input type="radio" class="visually-hidden">
+              <div class="modal__radio-button  radio-btn">M</div>
+            </label>
+            <label class="modal__label">
+              <input type="radio" class="visually-hidden">
+              <div class="modal__radio-button  radio-btn">L</div>
+            </label>
+          </div>
+
+          <button class="modal__button" type="submit">Добавить</button>
+        </form>
       </div>
     </section>
   </body>
