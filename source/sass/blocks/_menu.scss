@@ -1,0 +1,79 @@
+.menu {
+  position: relative;
+}
+
+.menu__burger-btn {
+  position: absolute;
+  top: -42px;
+  right: 32px;
+  transform: translate(-50%, -50%);
+  border: none;
+  background-color: transparent;
+  background-image: url("../../img/icon-menu-open.svg");
+  display: block;
+  width: 20px;
+  height: 14px;
+}
+
+.menu--show .menu__burger-btn {
+  background-image: url("../../img/icon-menu-close.svg");
+  height: 20px;
+}
+
+.menu__list {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: -2000px;
+  transition: 300ms ease-out;
+}
+
+.menu--show .menu__list {
+  position: static;
+}
+
+.menu__item {
+  box-shadow: 0 1px 0 0 $light-grey, inset 0 1px 0 0 $light-grey;
+  list-style: none;
+}
+
+.menu__link {
+  color: $black-light;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 1.41;
+  transition: 300ms ease-out;
+  position: relative;
+  padding: 32px 20px 30px 76px;
+  display: block;
+}
+
+.menu__link svg {
+  transform: translate(-50%, -50%);
+  left: 41px;
+  top: 50%;
+  position: absolute;
+}
+
+.menu__link:hover span {
+  opacity: 0.6;
+}
+
+.menu__link:active span {
+  opacity: 0.3;
+}
+
+.menu__link path {
+  opacity: 0.2;
+}
+
+.menu__link:hover path {
+  fill: $seafoam-blue;
+  opacity: 1;
+}
+
+.menu__link:active path {
+  fill: $seafoam-blue;
+  opacity: 0.3;
+}

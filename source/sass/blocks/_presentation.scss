@@ -1,0 +1,70 @@
+.presentation {
+  background-image: url("../../img/hero-mobile@1x.jpg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-color: #fafafa;
+  width: 100%;
+}
+
+.presentation__title {
+  font-size: 27px;
+  font-weight: bold;
+  line-height: 1.11;
+  text-align: center;
+  margin: 0;
+  padding: 75px 30px 120px 30px;
+  color: $very-dark-brown;
+}
+
+.presentation__link {
+  position: relative;
+  text-decoration: none;
+  color: $white;
+  font-size: 19px;
+  font-weight: bold;
+  line-height: 1.26;
+  padding: 30px 29px;
+  padding-right: 170px;
+  background-color: $seafoam-blue;
+  display: block;
+  transition: 300ms ease-out;
+}
+
+.presentation__link:hover,
+.presentation__link:active {
+  background-color: $light-seafoam-blue;
+}
+
+.presentation__link:active span {
+  opacity: 0.3;
+}
+
+.presentation__link svg {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(-50%, -50%);
+  width: 80px;
+  opacity: 0.5;
+}
+
+.presentation__link:hover svg {
+  opacity: 0.7;
+}
+
+.presentation__link:active svg {
+  opacity: 0.3;
+}
+
+.presentation__link path {
+  fill: $blue-green;
+}
+
+.presentation__link:nth-child(2) {
+  background-color: $greeny-blue;
+}
+
+.presentation__link:nth-child(2):hover,
+.presentation__link:nth-child(2):active {
+  background-color: $light-greeny-blue;
+}

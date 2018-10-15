@@ -1,0 +1,17 @@
+.page {
+  font-family: $opensans;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.6;
+  color: $black-light;
+
+  margin: 0;
+}
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

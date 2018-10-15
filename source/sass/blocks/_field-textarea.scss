@@ -1,0 +1,20 @@
+.form__textarea {
+  margin-top: 23px;
+}
+
+.field-textarea {
+  width: 100%;
+  min-height: 142px;
+  padding: 18px 17px;
+
+  border: solid 2px $black-light;
+}
+
+.field-textarea[placeholder] {
+  font-family: $opensans;
+  font-size: 17px;
+  line-height: 1.06;
+  color: rgba($black-light, 0.3);
+
+  text-overflow: ellipsis;
+}

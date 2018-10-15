@@ -1,0 +1,16 @@
+.field-tel__input {
+  width: 100%;
+  padding: 16px 0 21px;
+
+  border: none;
+  box-shadow: inset 0 -2px 0 0 $black;
+}
+
+.field-tel__input[placeholder] {
+  font-family: $opensans;
+  font-size: 19px;
+  line-height: 0.95;
+  color: rgba($black-light, 0.3);
+
+  text-overflow: ellipsis;
+}

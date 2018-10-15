@@ -1,0 +1,50 @@
+.contacts__inner {
+  padding: 30px 42px;
+}
+
+.contacts__title {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.67;
+  color: $black;
+
+  margin-bottom: 42px;
+}
+
+.contacts__table {
+  line-height: 2;
+}
+
+.contacts__row + .contacts__row {
+  margin-top: 44px;
+}
+
+.contacts__term {
+  margin-right: 32px;
+}
+
+.contacts__row a {
+  padding-bottom: 4px;
+
+  color: $black-light;
+  text-decoration: none;
+
+  border-bottom: 1px solid $light-greeny-blue;
+  transition: 300ms ease-out;
+}
+
+.contacts__row a:hover {
+  color: $light-greeny-blue;
+}
+
+.contacts__row a:active {
+  opacity: 0.3;
+}
+
+.contacts__map {
+  margin-bottom: 40px;
+}
+
+.contacts__link {
+  margin-bottom: 40px;
+}
