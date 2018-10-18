@@ -33,7 +33,7 @@
 }
 
 .menu__item {
-  box-shadow: 0 1px 0 0 $light-grey, inset 0 1px 0 0 $light-grey;
+  box-shadow: 0 1px 0 0 $gray-light, inset 0 1px 0 0 $gray-light;
   list-style: none;
 }
 
@@ -43,7 +43,7 @@
   display: block;
   padding: 32px 20px 30px 76px;
 
-  color: $black-light;
+  color: $gray-dark;
   text-decoration: none;
   font-size: $font-size;
   font-weight: bold;
@@ -52,11 +52,11 @@
 }
 
 .menu__link:hover {
-  color: rgba($black-light, 0.6);
+  color: rgba($gray-dark, 0.6);
 }
 
 .menu__link:active {
-  color: rgba($black-light, 0.3);
+  color: rgba($gray-dark, 0.3);
 }
 
 .menu__link svg {
@@ -69,12 +69,12 @@
 }
 
 .menu__link:hover svg {
-  fill: $main-blue;
+  fill: $main-color;
   opacity: 1;
 }
 
 .menu__link:active svg {
-  fill: $main-blue;
+  fill: $main-color;
   opacity: 0.3;
 }
 

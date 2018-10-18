@@ -14,12 +14,12 @@
   text-align: center;
 
   opacity: 0.1;
-  border: solid 2px $black-light;
+  border: solid 2px $gray-dark;
 }
 
 .radio-btn__input:checked ~ .radio-btn__text {
   opacity: 1;
-  border: solid 2px $main-blue;
+  border: solid 2px $main-color;
 }
 
 .radio-btn__input:hover ~ .radio-btn__text,

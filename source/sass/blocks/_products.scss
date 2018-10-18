@@ -2,3 +2,7 @@
   width: 260px;
   margin: 0 auto 30px;
 }
+
+.products__item:last-child {
+  margin-bottom: 0;
+}

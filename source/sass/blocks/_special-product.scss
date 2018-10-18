@@ -11,6 +11,7 @@
 
 .special-product__title {
   font-size: $font-size-h2;
+  margin: 0 0 8px;
   line-height: 1.2;
   font-weight: bold;
   color: $black;
@@ -20,7 +21,7 @@
   font-size: $font-size;
   line-height: 1.18;
   font-weight: bold;
-  color: $main-blue;
+  color: $main-color;
   margin-bottom: 30px;
   display: inline-block;
 }
@@ -36,7 +37,7 @@
 
 .special-product__table-row {
   padding-bottom: 13px;
-  border-bottom: 1px solid $light-grey;
+  border-bottom: 1px solid $gray-light;
   display: flex;
 }
 

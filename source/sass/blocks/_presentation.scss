@@ -7,7 +7,7 @@
 }
 
 .presentation__title {
-  font-size: 27px;
+  font-size: $font-size-h1;
   font-weight: bold;
   line-height: 1.11;
   text-align: center;
@@ -20,19 +20,19 @@
   position: relative;
   text-decoration: none;
   color: $white;
-  font-size: $font-size-large;
+  font-size: 19px;
   font-weight: bold;
   line-height: 1.26;
   padding: 30px 29px;
   padding-right: 170px;
-  background-color: $main-blue;
+  background-color: $main-color;
   display: block;
   transition: 300ms ease-out;
 }
 
 .presentation__link:hover,
 .presentation__link:active {
-  background-color: $main-blue-lighten;
+  background-color: $main-color-lighten;
 }
 
 .presentation__link:active span {
@@ -57,14 +57,14 @@
 }
 
 .presentation__link path {
-  fill: $btn-blue-dark;
+  fill: $green;
 }
 
-.presentation__link:nth-child(2) {
-  background-color: $btn-blue-light;
-}
+.presentation__link--dark {
+  background-color: $green-light;
 
-.presentation__link:nth-child(2):hover,
-.presentation__link:nth-child(2):active {
-  background-color: $main-blue-light;
+  &:hover,
+  &:active {
+    background-color: $main-color-light;
+  }
 }

@@ -2,14 +2,14 @@
   padding: 76px 30px 74px;
   margin: 0;
 
-  font-size: 27px;
+  font-size: $font-size-h1;
   line-height: 30px;
   text-align: center;
   font-family: $opensans;
   font-weight: 700;
   color: $black;
 
-  background-color: $grey;
+  background-color: $gray;
 }
 
 .main__products {
@@ -18,9 +18,9 @@
 
 .main__about-production {
   width: 260px;
-  margin: 0 auto;
+  margin: 0 auto 58px;
 
-  border: 1px solid $light-grey;
+  border: 1px solid $gray-light;
 }
 
 .main-wrapper {
@@ -29,7 +29,7 @@
 }
 
 .main__text {
-  font-size: $font-size-smallest;
+  font-size: 13px;
   line-height: 1.85;
 
   margin-top: 30px;

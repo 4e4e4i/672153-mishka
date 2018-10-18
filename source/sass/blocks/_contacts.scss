@@ -26,14 +26,14 @@
 .contacts__row a {
   padding-bottom: 4px;
 
-  color: $black-light;
+  color: $gray-dark;
   text-decoration: none;
 
-  border-bottom: 1px solid $main-blue-light;
+  border-bottom: 1px solid $main-color-light;
   transition: 300ms ease-out;
 
   &:hover {
-    color: $main-blue-light;
+    color: $main-color-light;
   }
 
   &:active {

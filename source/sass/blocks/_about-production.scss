@@ -11,13 +11,15 @@
 
 .about-production__header svg {
   margin-right: 25px;
-  fill: $main-blue;
+  fill: $main-color;
 }
 
 .about-production__title {
   font-size: $font-size;
   line-height: 24px;
   font-weight: 700;
+
+  margin: 0;
 }
 
 .about-production__info {
@@ -25,9 +27,9 @@
 }
 
 .about-production__text {
-  font-size: $font-size-smallest;
+  font-size: 13px;
   line-height: 24px;
-  color: $black-light;
+  color: $gray-dark;
 
   margin-bottom: 30px;
 }

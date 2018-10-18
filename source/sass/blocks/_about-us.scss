@@ -3,6 +3,11 @@
   width: 100%;
 }
 
+.about-us__list {
+  margin: 0;
+  padding: 0;
+}
+
 .about-us__title {
   font-size: $font-size-h2;
   line-height: 1.2;
@@ -30,5 +35,5 @@
   top: 0;
   left: 0;
 
-  fill: $main-blue;
+  fill: $main-color;
 }
