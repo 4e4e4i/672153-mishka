@@ -4,7 +4,7 @@
 
 .page-footer__inner {
   padding: 0 30px;
-  font-size: 19px;
+  font-size: $font-size-large;
   font-weight: bold;
   line-height: 18px;
 }
@@ -27,11 +27,11 @@
 }
 
 .page-footer__link-logo-html svg {
-  fill: $seafoam-blue;
+  fill: $main-blue;
 }
 
 .page-footer__link-logo-html:hover svg {
-  fill: $light-greeny-blue;
+  fill: $main-blue-light;
 }
 
 .page-footer__link-logo-html:active {

@@ -1,6 +1,6 @@
-@import "global/var";
+@import "global/variable";
 @import "global/fonts";
-@import "global/base";
+@import "global/global";
 @import "blocks/menu";
 @import "blocks/button";
 @import "blocks/contacts";
@@ -20,8 +20,6 @@
 @import "blocks/about-us";
 @import "blocks/form";
 @import "blocks/field-checkbox";
-@import "blocks/field-email";
 @import "blocks/field-radio";
-@import "blocks/field-tel";
 @import "blocks/field-text";
 @import "blocks/field-textarea";

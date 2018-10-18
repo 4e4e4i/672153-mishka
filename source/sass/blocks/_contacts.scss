@@ -29,20 +29,21 @@
   color: $black-light;
   text-decoration: none;
 
-  border-bottom: 1px solid $light-greeny-blue;
+  border-bottom: 1px solid $main-blue-light;
   transition: 300ms ease-out;
-}
 
-.contacts__row a:hover {
-  color: $light-greeny-blue;
-}
+  &:hover {
+    color: $main-blue-light;
+  }
 
-.contacts__row a:active {
-  opacity: 0.3;
+  &:active {
+    opacity: 0.3;
+  }
 }
 
 .contacts__map {
-  margin-bottom: 40px;
+  display: block;
+  margin: 0 auto 40px;
 }
 
 .contacts__link {

@@ -8,7 +8,7 @@
   padding: 12px 0 12px 66px;
   margin-bottom: 22px;
 
-  font-size: 17px;
+  font-size: $font-size;
   line-height: 1.06;
   font-weight: bold;
   color: $black;
@@ -60,10 +60,10 @@
   display: block;
   padding-right: 25px;
 
-  font-size: 17px;
+  font-size: $font-size;
   font-weight: bold;
   line-height: 0.94;
-  color: $seafoam-blue;
+  color: $main-blue;
   text-transform: uppercase;
 
   background-color: $white;

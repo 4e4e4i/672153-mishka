@@ -13,26 +13,26 @@
   text-align: center;
   margin: 0;
   padding: 75px 30px 120px 30px;
-  color: $very-dark-brown;
+  color: $black;
 }
 
 .presentation__link {
   position: relative;
   text-decoration: none;
   color: $white;
-  font-size: 19px;
+  font-size: $font-size-large;
   font-weight: bold;
   line-height: 1.26;
   padding: 30px 29px;
   padding-right: 170px;
-  background-color: $seafoam-blue;
+  background-color: $main-blue;
   display: block;
   transition: 300ms ease-out;
 }
 
 .presentation__link:hover,
 .presentation__link:active {
-  background-color: $light-seafoam-blue;
+  background-color: $main-blue-lighten;
 }
 
 .presentation__link:active span {
@@ -57,14 +57,14 @@
 }
 
 .presentation__link path {
-  fill: $blue-green;
+  fill: $btn-blue-dark;
 }
 
 .presentation__link:nth-child(2) {
-  background-color: $greeny-blue;
+  background-color: $btn-blue-light;
 }
 
 .presentation__link:nth-child(2):hover,
 .presentation__link:nth-child(2):active {
-  background-color: $light-greeny-blue;
+  background-color: $main-blue-light;
 }

@@ -34,7 +34,7 @@
 }
 
 .modal__title {
-  font-size: $size-title-2;
+  font-size: $font-size-h2;
   font-weight: bold;
   line-height: 30px;
   text-align: center;
@@ -61,13 +61,13 @@
   width: 100%;
   padding: 20px 20px 16px 20px;
 
-  font-size: 17px;
+  font-size: $font-size;
   font-weight: bold;
   line-height: 0.94;
   text-align: center;
   color: $white;
   text-transform: uppercase;
 
-  background-color: $seafoam-blue;
+  background-color: $main-blue;
   border: none;
 }

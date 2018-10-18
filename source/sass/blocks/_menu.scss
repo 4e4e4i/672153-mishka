@@ -38,15 +38,25 @@
 }
 
 .menu__link {
+  position: relative;
+
+  display: block;
+  padding: 32px 20px 30px 76px;
+
   color: $black-light;
   text-decoration: none;
-  font-size: 17px;
+  font-size: $font-size;
   font-weight: bold;
   line-height: 1.41;
   transition: 300ms ease-out;
-  position: relative;
-  padding: 32px 20px 30px 76px;
-  display: block;
+}
+
+.menu__link:hover {
+  color: rgba($black-light, 0.6);
+}
+
+.menu__link:active {
+  color: rgba($black-light, 0.3);
 }
 
 .menu__link svg {
@@ -54,26 +64,17 @@
   left: 41px;
   top: 50%;
   position: absolute;
-}
 
-.menu__link:hover span {
-  opacity: 0.6;
-}
-
-.menu__link:active span {
-  opacity: 0.3;
-}
-
-.menu__link path {
   opacity: 0.2;
 }
 
-.menu__link:hover path {
-  fill: $seafoam-blue;
+.menu__link:hover svg {
+  fill: $main-blue;
   opacity: 1;
 }
 
-.menu__link:active path {
-  fill: $seafoam-blue;
+.menu__link:active svg {
+  fill: $main-blue;
   opacity: 0.3;
 }
+

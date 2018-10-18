@@ -4,7 +4,7 @@
 }
 
 .field-text__title {
-  font-size: 17px;
+  font-size: $font-size;
   line-height: 1.06;
   font-weight: bold;
   color: $black;
@@ -21,9 +21,24 @@
   padding: 18px 0;
 
   font-family: $opensans;
-  font-size: 17px;
+  font-size: $font-size;
   line-height: 1.06;
   color: rgba($black-light, 0.3);
 
   text-overflow: ellipsis;
+}
+
+.field-text--tel .field-text__input[placeholder] {
+  font-size: $font-size-large;
+  line-height: 0.95;
+}
+
+.field-text--tel .field-text__input {
+  width: 100%;
+  padding: 16px 0 21px;
+}
+
+.field-text--email .field-text__input {
+  width: 100%;
+  padding: 18px 0 20px;
 }
