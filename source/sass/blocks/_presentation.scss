@@ -20,7 +20,7 @@
   position: relative;
   text-decoration: none;
   color: $white;
-  font-size: 19px;
+  font-size: $font-size-large;
   font-weight: bold;
   line-height: 1.26;
   padding: 30px 29px;
@@ -57,11 +57,11 @@
 }
 
 .presentation__link path {
-  fill: $green;
+  fill: $accent-color;
 }
 
 .presentation__link--dark {
-  background-color: $green-light;
+  background-color: $accent-color-light;
 
   &:hover,
   &:active {
